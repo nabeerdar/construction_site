@@ -1,0 +1,623 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+/* css variables */
+:root {
+  --nabar-height: 59;
+
+}
+
+
+
+.item1 {
+  background-color: brown;
+  /* display: block; */
+  padding: 2px;
+  border: 2px solid white;
+
+
+
+}
+
+/* navigation bar */
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#navbar::before {
+  content: "";
+  background-color: rgb(106, 104, 104);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+
+}
+
+/* logo and image */
+/* navigation bar */
+#logo {
+  margin: 10px 34px;
+}
+
+#logo img {
+  height: 70px;
+
+}
+
+@media screen and (max-width: 1200px) {
+  #logo {
+    display: none;
+  }
+
+  #nav-links {
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+  }
+
+}
+
+/* list styling */
+/* navigation bar */
+
+#navbar ul {
+  display: flex;
+
+
+}
+
+#navbar ul li {
+
+  list-style: none;
+
+
+}
+
+#navbar ul li a {
+
+  color: rgb(255, 255, 255);
+  display: block;
+  padding: 3px 22px;
+  /* border-radius: 2px; */
+  text-decoration: none;
+
+
+}
+
+#navbar ul li a:hover {
+  border: 2px solid white;
+  color: rgb(241, 233, 233);
+  background-color: brown;
+}
+
+.navbtn {
+  padding: 6px 10px;
+  border: solid rgb(250, 248, 248);
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+img {
+  height: auto;
+  width: 100%;
+
+}
+
+.textbox {
+  position: absolute;
+  top: 17%;
+  left: 20%;
+  font-size: 28px;
+  color: #f2f2f2;
+
+}
+
+/* .btn{
+  top:90% ;
+  left: 20%;
+  position: absolute;
+  padding: 6px 40px;
+  border: 2px solid white;
+  background-color: brown;
+  color: white;
+  margin: 17px;
+  cursor: pointer;
+} */
+
+img {
+  height: auto;
+  width: 100%;
+
+}
+
+.textbox {
+  position: absolute;
+  top: 60%;
+  left: 41%;
+  font-size: 60px;
+  color: rgb(253, 248, 248);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.btn {
+  top: 90%;
+  left: 20%;
+  position: absolute;
+  padding: 6px 40px;
+  border: 2px solid white;
+  background-color: brown;
+  color: white;
+  margin: 17px;
+  cursor: pointer;
+}
+
+*/ .contactus {}
+
+.contacth {
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: center;
+  text-align: center;
+
+}
+
+label {
+  display: block;
+
+  margin-bottom: 5px;
+
+}
+
+.name {
+  margin-left: 239px;
+  margin-right: 287px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+
+}
+
+.contactspan {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  font-size: 20px;
+}
+
+
+
+
+.footerlogo {
+  width: 40%;
+
+
+}
+
+.lastfooter {
+  display: flex;
+  text-align: center;
+  background-color: white;
+
+}
+
+.footernav {
+  display: grid;
+  list-style: none;
+
+}
+
+.footernav {
+  padding-left: 2px;
+  display: grid;
+  justify-content: center;
+
+}
+
+.footernav ul li {
+  font-size: 18px;
+  list-style: none;
+  margin: 10px;
+
+}
+
+.footernav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 3px 22px;
+
+
+
+}
+
+.item11 {
+  background-color: brown;
+  border: 1px;
+  padding: 2px;
+
+}
+
+
+.footernav ul li a:hover {
+  border: 2px solid white;
+  color: brown;
+
+}
+
+.footercontact {
+  padding-left: 21%;
+
+}
+
+.icons {
+  display: flex;
+  width: 50%;
+  padding: 5%;
+  margin: 5%;
+  gap: 20%;
+}
+
+body {
+  min-height: 100vh;
+  /* background-color: aquamarine; */
+  flex: 1;
+}
+
+
+.nav-font-size {
+  font-size: 23px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .nav-font-size {
+    font-size: 20px;
+  }
+}
+
+footer {
+  background-color: brown;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 100;
+  color: white;
+  position: fixed;
+  bottom: 0;
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .contacth {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  label {
+    display: block;
+
+    margin-bottom: 5px;
+
+  }
+
+  .name {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 0px;
+
+  }
+
+  .email {
+    margin-left: 124px;
+    margin-right: 124px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .button1 {
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: brown;
+    color: white;
+    border: 2px solid rgb(232, 215, 181);
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 40px;
+
+  }
+
+  .button1:hover {
+    border: 2px solid white;
+    color: brown;
+    background-color: rgb(252, 249, 249);
+  }
+
+
+
+
+
+
+  #logo img {
+    height: 70px;
+    display: none;
+  }
+
+  #navbar ul {
+    justify-content: center;
+    display: grid;
+    width: 100%;
+
+  }
+
+  #navbar li {
+
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .textbox {
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 9%;
+    font-size: 20px;
+    color: #f2f2f2;
+
+  }
+
+  .btn {
+    display: none;
+    top: 60%;
+    left: 10%;
+    position: absolute;
+    padding: 4px 10px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    cursor: pointer;
+    font-size: 10PX;
+  }
+
+  .home4 img {
+    position: relative;
+    width: 100%
+  }
+
+  .home4 .text11 {
+
+    color: #f2f2f2;
+    text-align: center;
+    margin: 20px 90px 10px;
+    font-size: 16px;
+
+  }
+
+  .home4 .text22 {
+    color: #f2f2f2;
+    text-align: center;
+    margin: 5px 50px;
+    font-size: 12px;
+  }
+
+  .contactbtn {
+    padding: 6px 15px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    cursor: pointer;
+  }
+
+  .mainhome4 {
+
+    position: absolute;
+    display: grid;
+    text-align: center;
+
+  }
+
+  .clientslogo {
+    width: 100%;
+
+  }
+
+  .clients {
+    width: 100%;
+  }
+
+  #services {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .upperbox {
+    display: grid;
+  }
+
+  .box1 {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    font-size: 12px;
+    padding: 10px;
+    border: 1px solid rgb(248, 247, 247);
+    background-color: brown;
+    color: #f2f2f2;
+    height: 150px;
+    width: 350px;
+    margin: 30px 35px;
+  }
+
+  .box2 {
+    font-size: 12px;
+    padding: 30px;
+    margin: 3px 6px;
+    border: 2px solid brown;
+    background-color: rgb(255, 254, 254);
+    height: 150px;
+    width: 300px;
+    margin: 30px 35px;
+  }
+
+  .boxss {
+    font-size: 12px;
+    padding: 30px;
+    margin: 30px 35px;
+    border: 2px solid brown;
+    background-color: rgb(255, 254, 254);
+    height: 150px;
+    width: 300px;
+
+  }
+
+  .lowerbox {
+    display: grid;
+  }
+
+  .upperbox1 {
+    display: grid;
+  }
+
+  .lowerbox1 {
+    display: grid;
+  }
+
+  .lastfooter {
+    display: grid;
+    margin-right: 18%;
+    margin-left: 18%;
+    font-size: 10px;
+    margin-bottom: 30px;
+  }
+
+  .footercontact {
+    padding-left: 20px;
+  }
+
+  .footerlogo img {
+    display: none;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  /* footer{
+  font-size: 7px;
+} */
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+  .textbox {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    font-size: 25px;
+    color: #f2f2f2;
+
+  }
+
+  .btn {
+    display: none;
+    top: 50%;
+    left: 15%;
+    position: absolute;
+    padding: 6px 30px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    cursor: pointer;
+  }
+
+  .clientslogo {
+    width: 100%;
+
+  }
+
+  .clients {
+    width: 100%;
+  }
+
+  #services {
+    margin-right: 50%;
+    margin-left: 50%;
+  }
+
+  .upperbox {
+    display: flex;
+
+
+
+  }
+
+  .lowerbox {
+    display: flex;
+  }
+
+  .upperbox1 {
+    display: flex;
+  }
+
+  .lowerbox1 {
+    display: flex;
+  }
+
+
+  .lastfooter {
+    display: grid;
+    margin-right: 20%;
+    margin-bottom: 30px;
+  }
+
+  .icons {
+    display: none;
+  }
+}
